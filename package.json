@@ -1,0 +1,41 @@
+{
+  "name": "vidly-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --coverage --runInBand --detectOpenHandles --forceExit",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "helmet": "^3.22.0",
+    "joi": "^14.3.1",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.20.1",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0",
+    "mpath": "^0.5.1",
+    "pug": "^2.0.4",
+    "winston": "^2.4.4",
+    "winston-mongodb": "^3.0.2"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "supertest": "^3.4.2"
+  }
+}
