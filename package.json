@@ -2,7 +2,7 @@
   "name": "vidly-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest --watchAll --verbose --coverage --runInBand --detectOpenHandles --forceExit",
     "start": "node app.js"
