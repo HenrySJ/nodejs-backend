@@ -1,2 +1,14 @@
+# Node modules
 node_modules/
+
+# Test coverage
 coverage/
+
+# Views scaffolding
+views/
+
+# Log files
+*.log
+
+# public
+public/
