@@ -12,3 +12,6 @@ views/
 
 # public
 public/
+
+# IDE config
+.vscode/
